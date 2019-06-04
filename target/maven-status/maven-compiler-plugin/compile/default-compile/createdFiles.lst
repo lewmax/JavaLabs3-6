@@ -1,0 +1,12 @@
+ua\lviv\iot\Studio\models\Microphone.class
+ua\lviv\iot\Studio\models\ModelOfCamera.class
+ua\lviv\iot\Studio\models\TypeOfMovie.class
+ua\lviv\iot\Studio\models\Decoration.class
+ua\lviv\iot\Studio\models\Device.class
+ua\lviv\iot\Studio\manager\StudioManagerImpl.class
+ua\lviv\iot\Studio\models\Camera.class
+ua\lviv\iot\Studio\manager\StudioManager.class
+ua\lviv\iot\Studio\models\StudioEquipment.class
+ua\lviv\iot\Studio\Main\Main.class
+ua\lviv\iot\Studio\models\LightningKit.class
+ua\lviv\iot\Studio\models\Position.class

@@ -1,0 +1,12 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Studio,ua.lviv.iot.Studio.manager,StudioManagerImpl,25,48,2,2,6,13,3,6,2,5
+Studio,ua.lviv.iot.Studio.models,StudioEquipment,56,38,0,0,10,17,3,11,3,11
+Studio,ua.lviv.iot.Studio.models,LightningKit,29,10,2,0,8,5,4,3,3,3
+Studio,ua.lviv.iot.Studio.models,Device,34,10,2,0,8,5,4,3,3,3
+Studio,ua.lviv.iot.Studio.models,Microphone,29,10,2,0,8,5,4,3,3,3
+Studio,ua.lviv.iot.Studio.models,Camera,72,38,4,0,16,17,6,11,4,11
+Studio,ua.lviv.iot.Studio.models,ModelOfCamera,0,64,0,0,0,7,0,1,0,1
+Studio,ua.lviv.iot.Studio.models,Position,0,64,0,0,0,7,0,1,0,1
+Studio,ua.lviv.iot.Studio.models,Decoration,34,24,0,0,6,11,2,7,2,7
+Studio,ua.lviv.iot.Studio.models,TypeOfMovie,0,64,0,0,0,7,0,1,0,1
+Studio,ua.lviv.iot.Studio.Main,Main,148,0,0,0,47,0,5,0,5,0

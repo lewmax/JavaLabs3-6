@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="uk"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Device.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Studio</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.Studio.models</a> &gt; <span class="el_source">Device.java</span></div><h1>Device.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.Studio.models;
+
+public class Device extends StudioEquipment {
+    private boolean power;
+
+<span class="fc" id="L6">    public Device() {</span>
+
+<span class="fc" id="L8">    }</span>
+
+    public Device(final String nameObj, final int idObj, final int priceObj,
+                  final Position positionObj,
+                  final TypeOfMovie typeOfMovieObj, final boolean powerObj) {
+<span class="nc" id="L13">        super(nameObj, idObj, priceObj, positionObj, typeOfMovieObj);</span>
+<span class="nc" id="L14">        this.power = powerObj;</span>
+<span class="nc" id="L15">    }</span>
+
+    public final boolean isPowerOn() {
+<span class="fc" id="L18">        return power;</span>
+    }
+
+    public final void setPower(final boolean powerObj) {
+<span class="fc" id="L22">        this.power = powerObj;</span>
+<span class="fc" id="L23">    }</span>
+
+    public final void powerOnOff() {
+<span class="nc bnc" id="L26" title="All 2 branches missed.">        if (this.isPowerOn()) {</span>
+<span class="nc" id="L27">            this.power = false;</span>
+        } else {
+<span class="nc" id="L29">            this.power = true;</span>
+        }
+<span class="nc" id="L31">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L35">        return &quot;Device{&quot;</span>
+                + &quot;power=&quot;
+                + power
+                + '}';
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

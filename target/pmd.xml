@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-04-08T13:14:04.402">
+<file name="C:\Users\HP ProBook 650\IdeaProjects\lab3\src\main\java\ua\lviv\iot\Studio\manager\StudioManagerWriter.java">
+<violation beginline="40" endline="41" begincolumn="11" endcolumn="9" rule="EmptyFinallyBlock" ruleset="Error Prone" package="ua.lviv.iot.Studio.manager" class="StudioManagerWriter" method="writeToFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#emptyfinallyblock" priority="3">
+Avoid empty finally blocks
+</violation>
+</file>
+</pmd>
